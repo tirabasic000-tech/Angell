@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MASTERPOV Stepmother invaded the young goddaughter's room
-
-What happens when the whole family lets loose? </title>
+<title>Sneakylinkvibes</title>
 
 <style>
 html, body {
@@ -23,14 +21,6 @@ html, body {
   background: #000;
 }
 
-/* TOP BANNER */
-.banner {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-}
-
-/* VIDEO */
 .video-box {
   width: 100%;
 }
@@ -42,80 +32,138 @@ video {
   display: block;
 }
 
-/* BOTTOM BANNER */
+/* HIDE FULLSCREEN & DOWNLOAD BUTTON */
+video::-webkit-media-controls-fullscreen-button {
+display: none !important;
+}
+
+video::-webkit-media-controls-overflow-button {
+display: none !important;
+}
+
+/* TITLE */
+.rec-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 15px 6px;
+}
+
+/* NATIVE */
+.native-wrap {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* BANNER */
 .banner-300 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 20px 0 30px;
-  width: 100%;
-}
-
-.banner-300 iframe {
-  max-width: 100%;
+  padding: 15px 0 30px;
 }
 </style>
 </head>
 
-<body>
+<body oncontextmenu="return false;">
 
 <!-- POPUNDER -->
 <script src="https://possessedannihilation.com/4b/0e/9a/4b0e9ab24f8a8f345e613f591cbfe0e8.js"></script>
 
 <div class="page">
 
-  <!-- TOP 320x50 -->
-  <div class="banner">
+<!-- VIDEO -->
+<div class="video-box">
 
-<script>
-  atOptions = {
-    'key' : 'f78f823196e67f28e0196d2dd973c545',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-
-<script src="https://possessedannihilation.com/f78f823196e67f28e0196d2dd973c545/invoke.js"></script>
-
-  </div>
-
-  <!-- VIDEO -->
-  <div class="video-box">
-    <video id="player" controls muted playsinline preload="metadata">
-      <source id="videoSource" src="" type="video/mp4">
-    </video>
-  </div>
-
-  <!-- NATIVE BANNER -->
-  <div class="banner-300">
-
-<script async="async" data-cfasync="false"
-src="https://possessedannihilation.com/b319c9185805ec44fd0ce4a52dc8e60c/invoke.js"></script>
-
-<div id="container-b319c9185805ec44fd0ce4a52dc8e60c"></div>
-
-  </div>
+<video 
+id="player"
+controls
+muted
+playsinline
+preload="metadata"
+controlsList="nofullscreen nodownload noremoteplayback"
+disablePictureInPicture
+>
+<source id="videoSource" src="" type="video/mp4">
+</video>
 
 </div>
 
+<!-- TITLE -->
+<div class="rec-title">
+🔥 Trending Videos
+</div>
+
+<!-- NATIVE ADS -->
+<div class="native-wrap">
+
+<script async="async" data-cfasync="false" src="https://possessedannihilation.com/b319c9185805ec44fd0ce4a52dc8e60c/invoke.js"></script>
+<div id="container-b319c9185805ec44fd0ce4a52dc8e60c"></div>
+
+</div>
+
+<!-- BANNER 300x250 -->
+<div class="banner-300">
+
+<script>
+  atOptions = {
+    'key' : '87cb96e272957b8fbb4b21b2d4c3299f',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script src="https://possessedannihilation.com/87cb96e272957b8fbb4b21b2d4c3299f/invoke.js"></script>
+
+</div>
+
+</div>
+
+<!-- VIDEO PARAM SCRIPT -->
 <script>
 (function () {
-  const params = new URLSearchParams(window.location.search);
-  let video = params.get("v");
 
-  if (video) {
-    if (!video.startsWith("http")) {
-      video = "https://cdn.videy.co/" + video;
-    }
-  } else {
-    video = "https://cdn.videy.co/u4BXNgqr1.mp4";
-  }
+const params = new URLSearchParams(window.location.search);
+let video = params.get("v");
 
-  document.getElementById("videoSource").src = video;
-  document.getElementById("player").load();
+if (video) {
+if (!video.startsWith("http")) {
+video = "https://cdn.videy.co/" + video;
+}
+} else {
+video = "https://cdn.videy.co/QCY4wUNX1.mp4";
+}
+
+document.getElementById("videoSource").src = video;
+document.getElementById("player").load();
+
 })();
+</script>
+
+<!-- POP TRIGGER VIDEO CLICK -->
+<script>
+document.getElementById("player").addEventListener("click", function(){
+document.body.click();
+});
+</script>
+
+<!-- AUTO SCROLL -->
+<script>
+const player = document.getElementById("player");
+
+player.addEventListener("play", function() {
+
+setTimeout(function(){
+
+window.scrollTo({
+top: 260,
+behavior: "smooth"
+});
+
+},1500);
+
+});
 </script>
 
 </body>
